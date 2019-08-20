@@ -1,2 +1,4 @@
 # My Code here....
-(map_to_negativize([1, 2, 3, -9]))
+def map_to_negativize(source_array)
+  source_array.map { |i| -i } 
+end 
