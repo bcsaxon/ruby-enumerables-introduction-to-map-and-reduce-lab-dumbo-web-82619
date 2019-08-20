@@ -10,3 +10,8 @@ end
 def map_to_double(source_array)
   source_array.map { |i| 2*i }
 end
+
+def map_to_square(source_array)
+  source_array.map { |i| 2**i  }
+  
+end
